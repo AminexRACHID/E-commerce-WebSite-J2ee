@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6F5FC;
+}
+/* Barre de navigation */
+nav{
+	position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    background-color:  white;
+    padding: 14px;
+    top: 0;
+    height: 60px;
+    box-shadow: 0 20px 30px 0 rgb(28 9 80 / 5%);
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets .link{
+    font-size: 17px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+nav .onglets .link a:hover{
+   font-weight: bold;
+  color:#6C55F9;
+}
+nav .onglets .link a{
+    text-decoration: none;
+    color: black;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding:15px;
+    border-radius: 30px;
+    border:solid 1px black;
+    outline:none;
+    background-color: #F5F5F4;
+}
+nav .onglets .link i{
+    margin-right: 7px;
+}
+
+/* formulaires */
+section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.formm{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px 60px;
+    width: 340px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px,
+     rgba(0, 0, 0, 0.3) -10px 10px,
+      rgba(0, 0, 0, 0.2) -15px 15px,
+       rgba(0, 0, 0, 0.1) -20px 20px,
+        rgba(0, 0, 0, 0.05) -25px 25px;
+}
+.formm h1{
+    color:#6C55F9;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.formm .imputs{
+    margin: 0;
+}
+.U{
+    margin-left: 0px;
+}
+
+.inp {
+    padding: 15px;
+    border:solid 1px rgb(3, 3, 3);
+    border-radius: 20px;
+    border-bottom: 2px solid  black;
+    border-left: 2px solid black;
+    margin-left: 0px;
+    width: 300px;
+}
+
+  
+.formm button{
+    padding: 12px 20px;
+    border: solid 1px black;
+    border-bottom: 2px solid  black;
+    border-left: 2px solid black;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+    background-color:#6C55F9;
+    outline: none;
+    width: 335px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.sign-up{
+    font-size: 14px;
+    margin-top: 60px;
+}
+.sign-up0{
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.formm .sign-up0 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* pied de page */
+
+footer{
+    margin-top: 200px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer .social-media{
+    display: flex;
+}
+footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
